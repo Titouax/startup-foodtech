@@ -14,6 +14,16 @@
  *= require_self
  */
 
+/* DEBUT STYLE GENERAL */
+
+body {
+  background-color: rgb(250, 251, 252);
+  
+}
+
+/* FIN STYLE GENERAL */
+
+/* DEBUT DU SLIDESHOW */
 
  * {box-sizing:border-box}
 
@@ -109,7 +119,9 @@
    to {opacity: 1}
  }
 
-/* TAB */
+ /* FIN DU SLIDESHOW */
+
+/* DEBUT DES TAB */
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
@@ -147,3 +159,5 @@ body, html {
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
+
+/* FIN DES TAB */
