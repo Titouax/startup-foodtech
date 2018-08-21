@@ -45,7 +45,7 @@ body {
 
  .img_slide {
 height: 99%;
- width: 100vw;
+ width: auto;
  }
 
  /* Next & previous buttons */
@@ -242,4 +242,11 @@ body, html {
 
 .sub_title_link {
   font-size: 35px !important;
+}
+
+@media screen and (max-width: 650px) {
+  .img_slide {
+    height: 99%;
+    width:auto;
+  }
 }
