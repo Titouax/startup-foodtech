@@ -150,14 +150,13 @@ body, html {
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
-  
   padding: 100px 20px;
   height: 100%;
 }
 
 #Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#News {background-color: green; display: none}
+#Contact {background-color: blue;display: none}
+#About {background-color: orange;display: none}
 
 /* FIN DES TAB */
