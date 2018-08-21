@@ -16,7 +16,7 @@ rails db:create
 rails db:migrate
 
 rails s
-
+``` 
 
 
 Ensuite rends-toi sur :
