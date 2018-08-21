@@ -1,21 +1,10 @@
-# <a href="https://startup-kebab-foodtech.herokuapp.com/">KEBAB FOUFOUNE</a>
-
-
-
-Bon je sais ce que tu vas dire ... Encore un repo stylé, je sais ...
-
-
-
-# Mais calme tes ardeurs !!
-
-
-Pour avoir un tel niveau de front, il te faudra encore parcourir les plaines des steppes arides de la BNF, les hordes de Zombies de la ligne 13, la chaleur impétueuse de la canicule et parcourir les centaines de lignes de la <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Reference">DOC CSS</a>
+# <a href="https://startup-kebab-foodtech.herokuapp.com/">Kebab FoodTech</a>
 
 # Instructions #
 
-Comme d'habitude pour faire du sale avec ce repo en local
+Comme d'habitude pour travailler avec ce repo en local
 
-
+```
 git clone https://github.com/Titouax/startup-foodtech
 
 cd startup-foodtech
@@ -27,7 +16,7 @@ rails db:create
 rails db:migrate
 
 rails s
-
+``` 
 
 
 Ensuite rends-toi sur :
