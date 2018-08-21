@@ -243,8 +243,6 @@ body, html {
 .sub_title_link {
   font-size: 35px !important;
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (max-width: 650px) {
   .img_slide {
@@ -252,4 +250,3 @@ body, html {
     width:auto;
   }
 }
->>>>>>> 4f3448a85fc64400b71051c20a64a7bee28f61bb
