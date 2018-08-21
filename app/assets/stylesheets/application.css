@@ -27,16 +27,28 @@ body {
 
  * {box-sizing:border-box}
 
+h3 {
+  margin: 0px;
+}
  /* Slideshow container */
  .slideshow-container {
-   max-width: 1000px;
+/*   max-width: 1000px;
    position: relative;
-   margin: auto;
+   margin: auto;*/
+   width:100vw;
+   height: 100vh;
  }
 
  /* Hide the images by default */
  .mySlides {
      display: none;
+     height: 100vh;
+     width: 100vw;
+ }
+
+ .img_slide {
+height: 99%;
+ width: 100vw;
  }
 
  /* Next & previous buttons */
@@ -86,11 +98,16 @@ body {
  }
 
  /* The dots/bullets/indicators */
+
+ .dots {
+  position: absolute;
+  bottom: 0px;
+ }
+
  .dot {
    cursor: pointer;
    height: 15px;
    width: 15px;
-   margin: 0 2px;
    background-color: #bbb;
    border-radius: 50%;
    display: inline-block;
@@ -125,7 +142,7 @@ body {
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
-  height: 100%;
+/*  height: 100%;*/
   margin: 0;
   font-family: Arial;
 }
@@ -141,6 +158,9 @@ body, html {
   padding: 14px 16px;
   font-size: 17px;
   width: 25%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 2;
 }
 
 .tablink:hover {
@@ -150,13 +170,29 @@ body, html {
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
-  padding: 100px 20px;
+  /*padding: 100px 20px;*/
   height: 100%;
 }
 
+#tab_1 {
+  left: 0%;
+}
+
+#tab_2 {
+  left: 25%;
+}
+
+#tab_3 {
+  left: 50%;
+}
+
+#tab_4 {
+  left: 75%;
+}
+
 #Home {background-color: red;}
-#News {background-color: green; display: none}
-#Contact {background-color: blue;display: none}
-#About {background-color: orange;display: none}
+#News {background-color: green; display: none; height: 100vh;}
+#Contact {background-color: blue;display: none; height: 100vh;}
+#About {background-color: orange;display: none; height: 100vh;}
 
 /* FIN DES TAB */
